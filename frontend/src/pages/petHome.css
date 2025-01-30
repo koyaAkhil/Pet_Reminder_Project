@@ -1,0 +1,167 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container Styling */
+  .container {
+    display: flex;
+    background-color: #fff;
+    width: 80%;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    background-color: #3c4763;
+    color: white;
+    width: 35%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .steps {
+    list-style: none;
+    margin-bottom: auto;
+  }
+  
+  .step {
+    margin: 10px 0;
+    font-size: 16px;
+    opacity: 0.6;
+  }
+  
+  .step.active {
+    opacity: 1;
+    font-weight: bold;
+  }
+  
+  .step.completed {
+    opacity: 1;
+    text-decoration: line-through;
+  }
+  
+  .dog-photo img {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .dog-photo p {
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+  
+  /* Form Container Styling */
+  .form-container {
+    width: 65%;
+    padding: 40px;
+  }
+  
+  .heading {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #3c4763;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .radio-group label {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+  
+  .upload-btn {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #3c4763;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .back-btn,
+  .next-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .back-btn {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  .next-btn {
+    background-color: #3c4763;
+    color: white;
+  }
+  
+  .back-btn:hover {
+    background-color: #bbb;
+  }
+  
+  .next-btn:hover {
+    background-color: #2c364e;
+  }
+  

@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Container Styling */
+form {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Label Styling */
+form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Input Field Styling */
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+form input:focus {
+  border-color: #6a11cb;
+  outline: none;
+}
+
+/* Button Styling */
+form button {
+  padding: 12px;
+  background: #6a11cb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #2575fc;
+}
+
+/* Login Link Styling */
+form span {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+form span a {
+  color: #6a11cb;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: color 0.3s;
+}
+
+form span a:hover {
+  color: #2575fc;
+}
+
+/* Toast Container Styling */
+.Toastify__toast-container {
+  font-size: 14px;
+  color: white;
+}
