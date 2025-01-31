@@ -5,7 +5,7 @@ const cors = require('cors');
 const AuthRouter = require('./Routes/AuthRouter');
 
 require('dotenv').config();
-require('./Models/db');
+require('./DBConn/db');
 const PORT = process.env.PORT || 8080;
 
 app.get('/ping', (req, res) => {
