@@ -4,6 +4,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Home from './pages/Home';
 import MainHomepage from './pages/MainPage';
+import veterinary_services from './pages/veterinary_services';
 import { useState } from 'react';
 import RefrshHandler from './RefrshHandler';
 
@@ -23,6 +24,8 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/home' element={<PrivateRoute element={<Home />} />} />
+        <Route path='/veterinaryservices' element={<veterinary_services />} />
+        
       </Routes>
     </div>
   );
